@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #0f1115;
+  font-family: system-ui, sans-serif;
+  color: #e6e6e6;
+}
+
+#mapContainer {
+  width: 200px;
+  height: 200px;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+/* Hide default routing control panel */
+.leaflet-routing-container {
+  display: none !important;
+}
