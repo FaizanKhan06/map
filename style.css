@@ -1,0 +1,27 @@
+#map-container {
+  position: relative;
+  height: 400px;
+}
+
+#address-map {
+  height: 100%;
+  width: 100%;
+}
+
+#center-pin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  z-index: 999;
+  pointer-events: none;
+}
+
+#suggestions div {
+  padding: 6px;
+  cursor: pointer;
+}
+
+#suggestions div:hover {
+  background-color: #f0f0f0;
+}
