@@ -1,0 +1,19 @@
+<div style="margin-bottom:10px; position:relative; width: 300px;">
+  <input type="text" id="searchBox" placeholder="Search location..." style="width: 100%; padding: 6px;" autocomplete="off" />
+  <div id="suggestions" style="position:absolute; top:35px; left:0; width:100%; background:#fff; border:1px solid #ccc; display:none; z-index:1000; max-height:200px; overflow-y:auto;"></div>
+</div>
+
+<div id="map-container">
+  <div id="address-map"></div>
+
+  <!-- Fixed Pin -->
+  <div id="center-pin">
+    <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" width="30" />
+  </div>
+</div>
+
+<p id="address">Selected Address: Loading...</p>
+<p id="coords"></p>
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
